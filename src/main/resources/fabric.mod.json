@@ -3,22 +3,23 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Client Mod Template",
+  "description": "This is an client only mod template!",
   "authors": [
-    "Me!"
+    "Me"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Vulp35/fabric-mod-template",
+    "issues": "https://github.com/Vulp35/fabric-mod-template/issues"
   },
 
   "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
+    "client": [
       "net.fabricmc.example.ExampleMod"
     ]
   },
@@ -33,6 +34,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
